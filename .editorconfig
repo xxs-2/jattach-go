@@ -1,0 +1,19 @@
+root = true
+
+[*]
+trim_trailing_whitespace = true
+insert_final_newline = true
+charset = utf-8
+indent_style = space
+
+[*.md]
+# Trailing whitespace is important in Markdown (they distinguish a new line from a new paragraph)
+trim_trailing_whitespace = false
+
+[*.go]
+# gofmt defaults to LF for all the platforms: https://github.com/golang/go/issues/16355
+end_of_line = lf
+
+[{go.mod,go.sum,*.go,.gitmodules}]
+indent_size = 4
+indent_style = tab
