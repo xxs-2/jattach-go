@@ -10,7 +10,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/jattach/jattach-go"
+	"github.com/xxs-2/jattach-go"
 )
 
 func main() {
