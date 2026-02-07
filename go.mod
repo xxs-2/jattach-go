@@ -1,4 +1,4 @@
-module github.com/jattach/jattach-go
+module github.com/xxs-2/jattach-go
 
 go 1.21
 
