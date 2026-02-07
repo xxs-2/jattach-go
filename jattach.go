@@ -12,8 +12,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/jattach/jattach-go/internal/process"
-	"github.com/jattach/jattach-go/internal/protocol"
+	"github.com/xxs-2/jattach-go/internal/process"
+	"github.com/xxs-2/jattach-go/internal/protocol"
 )
 
 // Client manages JVM attach operations
